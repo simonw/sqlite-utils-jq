@@ -13,6 +13,9 @@ dependencies = [
     "jq"
 ]
 
+[project.optional-dependencies]
+test = ["pytest"]
+
 [project.urls]
 Homepage = "https://github.com/simonw/sqlite-utils-jq"
 Changelog = "https://github.com/simonw/sqlite-utils-jq/releases"
