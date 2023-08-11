@@ -1,0 +1,22 @@
+[project]
+name = "sqlite-utils-jq"
+version = "0.1"
+description = "Plugin adding a jq() SQL function to sqlite-utils"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "sqlite-utils",
+    "jq"
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/sqlite-utils-jq"
+Changelog = "https://github.com/simonw/sqlite-utils-jq/releases"
+Issues = "https://github.com/simonw/sqlite-utils-jq/issues"
+
+[project.entry-points.sqlite_utils]
+jq = "sqlite_utils_jq"
